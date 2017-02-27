@@ -1,0 +1,152 @@
+ <!DOCTYPE html>
+<html>
+<head>
+ <title>Pho79 - Contact Us</title>
+ 
+</head>
+<body>
+    
+    <style>
+        .brand{
+            color: red;
+        }
+        header ul li{
+            display: inline-block;
+        }
+        
+        form table tr td:first-of-type{
+            text-align: right;
+        }
+    </style>
+    
+ <header>
+  <center> 
+   <h1> Pho79 </h1>
+  </center> 
+   <hr>
+ <ul>
+      <li>
+           <a style="color: green" href="home.html"> Home</a>
+      </li>
+      <li>
+       <a href="menu.html"> Menu</a>
+          
+      </li>
+      <li>
+        <a href="contact.html"> Contact Us</a>
+          
+      </li>
+  </ul>
+ </header> 
+  <hr> 
+ <section>
+  <center>
+   <div>
+    <form action="fakePage.php" method="POST">
+        
+        <table>
+            
+            <tr>
+                <td>
+                    <label for="myName">Name:</label>
+                </td>
+                <td>
+                    <input type="text" name="myName" />
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <label for="myEmail">Email: </label>               
+                </td>
+                <td>
+                    <input type="text" name="myEmail" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="myPhone">Phone:</label>
+                </td>
+                <td>
+                    <input type="text" name="myPhone" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="catering">Reason for Inquiry: </label>
+     
+                </td>
+                <td>
+                    <select name="catering">
+                      <option value="Private Party"> Private Party </option>
+                      <option value="Feedback"> Feedback </option>
+                      <option value="Other"> Other </option>
+                    </select> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="briefDescription">Additional Information:</label>
+                </td>
+                <td>
+                    <textarea name="briefDescription">
+                    </textarea>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <label for="answer">Have you been to the restaurant?</label>
+                </td>
+                <td>
+                    <span>
+                        <input type="radio" name="answer" value="No" checked/> No
+                    </span>
+                    <span>
+                        <input type="radio" name="answer" value="Yes" /> Yes
+                    </span>
+                    
+                    
+                </td>
+            </tr>
+            <tr>
+                <td><label for="myChoices">Best days to contact you:</label></td>
+                <td>
+                    <input type="checkbox" name="myChoices" value="M"/> M
+                    <input type="checkbox" name="myChoices" value="T"/> T
+                    <input type="checkbox" name="myChoices" value="W"/> W
+                    <input type="checkbox" name="myChoices" value="Th"/> Th 
+                    <input type="checkbox" name="myChoices" value="F"/> F
+                </td>
+            </tr>
+        </table>
+     
+        <input type="submit" value="Send Request" />
+      
+    </form>
+   </div>
+   
+   <div>
+    
+     
+   </div>
+   <div>
+     
+   </div>
+  </center>
+ </section>
+ <hr>
+ <footer>
+  <center>
+   <div>
+    <p>
+        Street, City, State, Zipcode
+    </p>
+    <p>
+        Telephone Number
+    </p>
+   </div>
+  </center>
+ </footer>
+ </body>
+ </html>
