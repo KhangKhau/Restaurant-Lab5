@@ -1,0 +1,42 @@
+header h1{
+  font-family: Arial;
+}
+section{
+  background-color: green;
+}
+.brand{
+  color: red;
+}
+header ul li{
+  display: inline-block;
+}
+.bold{
+  font-weight: bold;
+}
+form table tr td:first-of-type{
+  text-align: right;
+}
+section tr th{
+  font-size: 30px;
+}
+body{
+  background-color: #cdcdcd;
+  color: white;
+}
+a{
+  color: red;
+}
+a:visited{
+  color: purple;
+}
+a:hover{
+  font-weight: bold;
+}
+a:active{
+  text-decoration: none;
+}
+
+#beverages{
+  margin-left: auto;
+  margin-right: auto;
+}
