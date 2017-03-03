@@ -3,11 +3,12 @@
 
 <head>
   <title>Pho79 - Menu</title>
+   <link rel="stylesheet" href="css/bootstrap/css/bootstrap.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
+ <div class="container">
   <header>
     <center>
       <h1> Pho79 </h1>
@@ -17,7 +18,7 @@
       <li>
         <a href="home.html"> Home</a>
       </li>
-      <li>
+      <li class="active">
         <a href="menu.html"> Menu</a>
 
       </li>
@@ -30,46 +31,58 @@
   </header>
   <hr>
   <section>
-    <table border="0" width="100%">
-      <tr>
-        <th> Burger and Fries </th>
-        <th> Hot Dog and Chips </th>
-        <th> Italian Sausage and Peppers </th>
-      </tr>
-      <tr>
-        <td> An American Classic!
-
-          <p>
-            $7.95
-          </p>
-
-        </td>
-        <td> An Summer Classic!
-          <p>$7.95 </p>
-        </td>
-        <td> An All-Time Favorite!!
+    
+    <div class="row">
+     
+      <div class="col-md-4">
+        <h1>Burger and Fries</h1>
+        <p>An American Classic!</p>
+        <p>$7.95</p>
+      
+      </div>
+       <div class="col-md-4">
+         <h1>Hot Dog and Chips</h1>
+         <p>An Summer Classic!</p>
+         <p>$7.95 </p>
+      </div>
+       <div class="col-md-4">
+         <h1>Italian Sausage and Peppers</h1>
+         <p>An All-Time Favorite!!</p>
           <p>$10.95</p>
-        </td>
-
-      </tr>
-      <tr>
-        <th> Tenderloin Sanwich and Chips </th>
-        <th> House Salad </th>
-        <th> Brisket Sanwich and Fries </th>
-      </tr>
-      <tr>
-        <td> Really Hits the Spot!
+        
+      </div>
+       <div class="col-md-4">
+        <h1>Tenderloin Sanwich and Chips</h1>
+        <p>Really Hits the Spot!</p>
           <p>$8.95</p>
-        </td>
-        <td> On the Lighter Site
-          <p>$6.95 </p>
-        </td>
-        <td> A Taste of Texas
-          <p>$7.95 </p>
-        </td>
 
-      </tr>
-    </table>
+        
+        
+        
+      </div>
+       <div class="col-md-4">
+        <h1>House Salad</h1>
+        
+        <p>On the Lighter Site</p>
+          <p>$6.95 </p>
+
+        
+        
+      </div>
+       <div class="col-md-4">
+        <h1>Brisket Sanwich and Fries</h1>
+        
+        <p>A Taste of Texas</p>
+          <p>$7.95 </p>
+        
+        
+      </div>
+    </div>
+    
+    
+    
+     
+    
   </section>
   <section>
 
@@ -95,6 +108,7 @@
       </tr>
     </table>
   </section>
+ 
   <hr>
   <footer>
     <center>
@@ -108,6 +122,9 @@
       </div>
     </center>
   </footer>
+  </div>
+  <script type="text/javascript" src="css/bootstrap/js/bootstrap.js"></script>
+  
 </body>
 
 </html>
